@@ -6,8 +6,9 @@ html, body, input {
 
 body {
    min-height: 400px;
-   margin-bottom: 80px;
+   padding-bottom: 200px;
    clear: both;
+   background: url("../images/roundBackground.png");
 }
 
 header {
@@ -15,6 +16,7 @@ header {
 	border-bottom-style: solid;
 	border-bottom-color: #cccccc;
 	border-bottom-width: 3px;
+	background-color: white;
 }
 
 #wrapperMargins {
@@ -22,7 +24,6 @@ header {
 	padding-left: 200px;
 	padding-right: 200px;
 	padding-bottom: 600px;
-	background: url("../images/roundBackground.png");
 }
 
 #links {
@@ -145,17 +146,8 @@ textarea {
 	padding: 30px;
 	overflow: auto;
 	display: block;
-/*	border-style: solid;
-	border-color: red;
-	border-width: 5px;*/
 }
 
-/*.imgSection {
-	overflow: auto;
-	border-style: solid;
-	border-color: red;
-	border-width: 5px;
-}*/
 
 .title {
 	background-color: #4aaaa5;
@@ -296,18 +288,6 @@ textarea {
 		margin: 20px;
 		float: left;
 	}
-
-/*	.title {
-		background-color: #4aaaa5;
-		color: white;
-		width: 230px;
-		padding: 10px 20px 10px 20px;
-		text-align: center;
-		float: left;
-		margin-top: 150px;
-		font-family: 'Georgia', Times, Times New Roman, serif;
-		font-size: 20px;
-	}*/
 
 	#name {
 		position: absolute;
